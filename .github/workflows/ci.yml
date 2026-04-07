@@ -20,4 +20,9 @@ jobs:
 
       - name: step2
         run: echo "this is my second step2"
-  
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
